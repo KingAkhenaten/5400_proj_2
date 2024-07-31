@@ -18,3 +18,6 @@ def format_analysis(ss: dict):
     amount = ss[max(ss, key=ss.get)]
 
     return {'result': f'{amount * 100}% {polarity}'}
+
+def f(x: int):
+    return x**x
